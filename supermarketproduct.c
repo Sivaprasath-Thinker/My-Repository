@@ -23,7 +23,7 @@ switch(product)
                    printf("juice in the rack=%d",*n2);
                    printf("\nno of juice=%d",n2);
                    break;
-    defult:
+    default:
            printf("no product to buy");
                    
 }
