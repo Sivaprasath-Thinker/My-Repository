@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int n,a[10],i,m=0,k;
+    int n,a[5],i,m=0,midnum;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
@@ -12,7 +12,7 @@ void main()
         m+=a[i];
     
     }
-        k=m/n;
-        printf("%d",k);
+        midnum=m/n;
+        printf("%d",midnum);
     
 }
